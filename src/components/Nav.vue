@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="flex-row">
     <router-link to="/">Home</router-link>
     <router-link to="/">Research</router-link>
     <router-link to="/">Publications</router-link>
