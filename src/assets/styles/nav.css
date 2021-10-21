@@ -3,3 +3,31 @@ nav {
   height: 100px;
   background-color: var(--light-gray);
 }
+
+nav .logo {
+  width: 300px;
+  height: 100%;
+  background-color: var(--crimson);
+  color: var(--white);
+  align-items: center;
+  justify-content: center;
+}
+
+nav .links {
+  width: 600px;
+  height: 100%;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: var(--black);
+}
+
+.links a:hover {
+  color: var(--crimson);
+  text-decoration: underline;
+}
