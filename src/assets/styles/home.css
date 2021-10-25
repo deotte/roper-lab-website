@@ -9,6 +9,11 @@
   min-height: inherit;
 }
 
-.text .action-button {
+.text .action-button, .text h1 {
   align-self: flex-start;
+}
+
+.text h1 {
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--black);
 }

@@ -1,5 +1,10 @@
 /* Utility classes */
 
+.content {
+  min-height: 500px;
+  width: 1200px;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -10,7 +15,42 @@
   flex-direction: column;
 }
 
+.header {
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header h1 {
+  justify-self: flex-start;
+  border-bottom: 1px solid var(--black);
+  padding-bottom: .5rem;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.l-padding {
+  padding-left: 5rem;
+  box-sizing: border-box;
+}
+
 .padding {
   padding: 1rem;
   box-sizing: border-box;
+}
+
+.extra-margin-top {
+  margin-top: 2.5rem;
+}
+
+.margin-top {
+  margin-top: 1rem;
+}
+
+.text-center {
+  text-align: center;
 }

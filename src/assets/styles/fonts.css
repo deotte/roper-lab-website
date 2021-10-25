@@ -8,6 +8,10 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+p {
+  font-size: .95rem;
+}
+
 span, p {
   font-weight: 300;
 }

@@ -1,0 +1,15 @@
+.action-button {
+  background-color: var(--crimson);
+  color: var(--white);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+}
+
+.action-button:hover {
+  box-shadow: .25rem .25rem var(--light-gray);
+}
