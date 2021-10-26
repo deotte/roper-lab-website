@@ -1,0 +1,39 @@
+.people .content {
+  flex-wrap: wrap;
+  width: 1300px;
+  box-sizing: border-box;
+}
+
+.profile {
+  width: 600px;
+  height: 300px;
+  background-color: var(--cream);
+  margin: 1rem;
+}
+
+.profile span, .profile h3, .profile p {
+  align-self: flex-start;
+}
+
+.profile .picture, .profile .text {
+  height: 100%;
+}
+
+.profile .picture {
+  width: 200px;
+  background-color: var(--light-gray);
+}
+
+.profile .placeholder {
+  width: 100%;
+  height: 200px;
+  background-color: #a9a9a9;
+}
+
+.profile .text {
+  width: 400px;
+}
+
+.profile .text p {
+  font-size: .85rem;
+}

@@ -1,7 +1,7 @@
 /* Utility classes */
 
 .content {
-  min-height: 500px;
+  min-height: 650px;
   width: 1200px;
 }
 
@@ -35,6 +35,12 @@
 
 .l-padding {
   padding-left: 5rem;
+  box-sizing: border-box;
+}
+
+.lr-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
   box-sizing: border-box;
 }
 

@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Randall Roper, Ph.D.",
+    "title": [
+      "Biology Associate Professor, Biomedical", "Engineering Adjunct Associate Professor"
+    ],
+    "description": "Ut id odio a risus mattis rutrum in ac sapien. Sed pharetra aliquam sapien non eleifend. Sed malesuada sed purus nec gravida. Donec vel risus vel dolor euismod dapibus nec a urna."
+  },
+  {
+    "name": "Charles R. Goodlet, Ph.D.",
+    "title": "Chancellor's Professor",
+    "description": "Maecenas sed vestibulum quam. Proin eleifend, nulla quis mollis consectetur, odio elit tincidunt mi, vitae congue erat ante eu felis. Suspendisse facilisis eleifend metus, at venenatis magna semper imperdiet."
+  },
+  {
+    "name": "Jared",
+    "title": "Ph.D. Candidate",
+    "description": "Sed tincidunt fringilla ornare. Vivamus hendrerit fermentum ligula, quis posuere neque lobortis sit amet. Morbi finibus turpis justo."
+  },
+  {
+    "name": "Laura",
+    "title": "Ph.D. Candidate",
+    "description": "Donec at gravida felis. Nullam volutpat sed dolor iaculis vehicula. Sed est lacus, dignissim nec finibus in, suscipit vel dolor."
+  },
+  {
+    "name": "Elysabeth Otte",
+    "title": "Ph.D. Student",
+    "description": "In nec nibh nisi. Duis fringilla mattis tempor. Fusce scelerisque nulla a volutpat iaculis. Vestibulum id commodo eros."
+  },
+  {
+    "name": "Drew",
+    "title": "Masters Student",
+    "description": "Suspendisse imperdiet consectetur dolor vitae tristique. Pellentesque leo diam, mattis vel lectus sit amet, eleifend pharetra nisi."
+  },
+  {
+    "name": "Courtney",
+    "title": "Masters Student",
+    "description": "Donec eget scelerisque lectus, nec euismod dui. Sed fringilla varius urna, in viverra nunc posuere a. Nunc vel pretium ante."
+  }
+]
