@@ -8,7 +8,7 @@
       <router-link to="/research">Research</router-link>
       <router-link to="/publications">Publications</router-link>
       <router-link to="/people">People</router-link>
-      <router-link to="/about">Contact</router-link>
+      <router-link to="/contact">Contact</router-link>
     </div>
   </nav>
 </template>

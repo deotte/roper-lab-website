@@ -1,6 +1,6 @@
 <template>
   <section class="home padding flex-column center">
-    <div class="content flex-row center">
+    <div class="content flex-row">
       <div class="text flex-column center">
         <h1>Our Research</h1>
         <p class="extra-margin-top">

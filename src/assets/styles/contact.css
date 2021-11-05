@@ -1,0 +1,32 @@
+.contact {
+  min-height: 700px;
+  
+}
+
+.content .find-us {
+  height: inherit;
+  min-height: inherit;
+}
+
+.contact .text {
+  align-self: flex-start;
+}
+
+.find-us h1 {
+  padding-bottom: .5rem;
+  border-bottom: 1px solid var(--black);
+}
+
+.find-us span, .find-us h3, .find-us a {
+  align-self: flex-start;
+}
+
+.find-us {
+  border-left: 1px solid var(--light-gray);
+}
+
+.pictures {
+  min-height: 500px;
+  width: 800px;
+  background-color: var(--cream);
+}

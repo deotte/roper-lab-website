@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Office",
+    "fields": [
+      "LD 220",
+      "School of Science, IUPUI",
+      "403 N Blackford Street",
+      "Indianapolis, IN 46202"
+    ]
+  },
+  {
+    "title": "Contact",
+    "fields": [
+      "Randall Roper",
+      "(317) 274-8131",
+      "rjroper@iupui.edu"
+    ]
+  },
+  {
+    "title": "IUPUI School of Science",
+    "fields": [
+      "https://science.iupui.edu"
+    ]
+  },
+  {
+    "title": "Department of Biology",
+    "fields": [
+      "https://science.iupui.edu/biology",
+      "biograd@iupui.edu",
+      "(317) 274-0577"
+    ]
+  }
+]

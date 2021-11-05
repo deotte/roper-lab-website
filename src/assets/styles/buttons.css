@@ -13,3 +13,7 @@
 .action-button:hover {
   box-shadow: .25rem .25rem var(--light-gray);
 }
+
+.action-button:visited {
+  color: var(--white);
+}
