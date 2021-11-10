@@ -1,0 +1,23 @@
+
+.tab-link {
+  background-color: var(--light-gray);
+  color: var(--black);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.router-link-exact-active.tab-link {
+  background-color: var(--crimson);
+}
+
+.router-link-exact-active.tab-link:visited {
+  color: var(--white);
+}
+
+.tab-link:visited {
+  color: var(--black);
+}
