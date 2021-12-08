@@ -1,7 +1,7 @@
 <template>
-  <nav class="flex-row padding">
+  <nav class="flex-row half-padding">
     <div class="logo flex-row">
-      <h1>Roper Lab</h1>
+      <img src="../assets/lab_logo.png">
     </div>
     <div class="links flex-row">
       <router-link to="/">Home</router-link>

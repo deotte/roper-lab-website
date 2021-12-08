@@ -23,7 +23,9 @@
         </router-link>
       </div>
       <div class="picture l-padding flex-column center">
-        <div class="placeholder"></div>
+        <div class="landing-image">
+          <img src="../assets/stock_photo.jpeg" />
+        </div>
         <span class="margin-top text-center">
           Dolor sit amet, consectetur adipiscing elit. Nunc quis eros eleifend, tincidunt leo non, blandit ante. 
           Phasellus at euismod velit.

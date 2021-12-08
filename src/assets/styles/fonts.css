@@ -8,12 +8,8 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
-a {
-  font-size: 16px;
-}
-
-p {
-  font-size: .95rem;
+a, p {
+  font-size: 1rem;
 }
 
 span, p, a {
@@ -25,5 +21,6 @@ p {
 }
 
 span {
+  line-height: 1.5rem;
   font-size: 90%;
 }

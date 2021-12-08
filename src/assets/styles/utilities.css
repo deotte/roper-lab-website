@@ -25,7 +25,7 @@
 .header h1 {
   justify-self: flex-start;
   border-bottom: 1px solid var(--black);
-  padding-bottom: .5rem;
+  padding-bottom: 1rem;
   display: inline-block;
 }
 
@@ -50,13 +50,18 @@
   box-sizing: border-box;
 }
 
+.half-padding {
+  padding: .5rem;
+  box-sizing: border-box;
+}
+
 .padding {
   padding: 1rem;
   box-sizing: border-box;
 }
 
 .extra-margin-top {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 
 .margin-bottom {

@@ -9,7 +9,7 @@
       <router-link to="/research/worms" class="tab-link r-margin">Worms</router-link>
       <router-link to="/research/bones" class="tab-link">Bones</router-link>
     </div>
-    <div class="content margin-top">
+    <div class="content extra-margin-top">
       <router-view></router-view>
     </div>
   </section>

@@ -1,7 +1,11 @@
-.home .placeholder {
+.home .landing-image {
   width: 400px;
   height: 300px;
-  background-color: var(--light-gray);
+}
+
+.home .landing-image img {
+  width: 100%;
+  height: 100%;
 }
 
 .content .text, .content .picture {
@@ -14,6 +18,6 @@
 }
 
 .text h1 {
-  padding-bottom: .5rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--black);
 }
