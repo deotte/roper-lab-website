@@ -4,6 +4,7 @@ import Brain from '../views/projects/Brain.vue'
 import Eyes from '../views/projects/Eyes.vue'
 import Worms from '../views/projects/Worms.vue'
 import Bones from '../views/projects/Bones.vue'
+import Research from '../views/Research.vue'
 
 const routes = [
   {
@@ -22,7 +23,7 @@ const routes = [
   {
     path: '/research',
     name: 'Research',
-    component: () => import('../views/Research.vue'),
+    component: Research,
     children: [
       { path: '', component: Brain },
       { path: 'bones', component: Bones },

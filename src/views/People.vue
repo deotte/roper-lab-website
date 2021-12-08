@@ -1,5 +1,8 @@
 <template>
   <section class="people padding flex-column center">
+    <div class="header">
+      <h1>Our People</h1>
+    </div>
     <div class="content flex-row center">
       <template v-if="people.length > 0">
         <Profile v-for="(person, index) of people"

@@ -18,12 +18,15 @@
 .header {
   height: 100px;
   width: 1200px;
+  display: flex;
+  align-items: center;
 }
 
 .header h1 {
   justify-self: flex-start;
   border-bottom: 1px solid var(--black);
   padding-bottom: .5rem;
+  display: inline-block;
 }
 
 .center {

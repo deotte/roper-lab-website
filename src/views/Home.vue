@@ -18,7 +18,7 @@
           Ut sodales orci vel porta laoreet. Duis malesuada imperdiet ex in ultricies. 
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <router-link to="/" class="action-button extra-margin-top">
+        <router-link to="/research" class="action-button extra-margin-top">
           View our research ->
         </router-link>
       </div>
