@@ -1,13 +1,15 @@
 <template>
   <section class="contact padding flex-row center">
-    <div class="content flex-row margin-top">
+    <div class="content flex-row margin-top" v-if="loaded">
       <div class="text flex-column center r-padding">
-        <h1>See our Lab</h1>
         <div class="pictures extra-margin-top">
+          <a 
+            class="twitter-timeline"
+            href="https://twitter.com/RoperLab_IUPUI?ref_src=twsrc%5Etfw"
+            data-height="700">
+            Tweets by RoperLab_IUPUI
+          </a>
         </div>
-        <a href="" class="action-button extra-margin-top">
-          Follow us on Instagram ->
-        </a>
       </div>
       <div class="find-us flex-column center l-padding" v-if="locations.length > 0">
         <h1>Find Us</h1>
@@ -35,11 +37,19 @@
     name: 'Contact',
     data() {
       return {
+        loaded: false,
         locations: []
       }
     },
     created() {
       this.locations = locations;
+    },
+    mounted() {
+      let twitterScript = document.createElement('script');
+      twitterScript.setAttribute('src', 'https://platform.twitter.com/widgets.js');
+      twitterScript.setAttribute('charset', 'utf-8');
+      document.head.appendChild(twitterScript);
+      this.loaded = true;
     }
   }
 </script>
