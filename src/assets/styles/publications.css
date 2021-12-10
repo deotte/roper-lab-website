@@ -1,0 +1,12 @@
+.publications .content {
+  flex-wrap: wrap;
+  width: 1300px;
+  box-sizing: border-box;
+}
+
+.publication {
+  width: 800px;
+  height: 300px;
+  background-color: var(--cream);
+  margin: 1rem;
+}
