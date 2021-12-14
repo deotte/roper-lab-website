@@ -1,5 +1,5 @@
 <template>
-  <section class="research flex-column center">
+  <section class="research padding flex-column center">
     <div class="header flex-row margin-top">
       <h1>Current Research</h1>
     </div>

@@ -1,12 +1,42 @@
 .publications .content {
   flex-wrap: wrap;
-  width: 1300px;
+  width: 1200px;
   box-sizing: border-box;
+  margin-bottom: 1rem;
 }
 
 .publication {
   width: 800px;
   height: 300px;
   background-color: var(--cream);
-  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.publication strong {
+  color: var(--blue);
+}
+
+.publication .text {
+  width: 650px;
+  height: 100%;
+  justify-content: center;
+}
+
+.publication .logo {
+  width: 150px;
+  height: 150px;
+}
+
+.publication .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.dates-ids {
+  width: 100%;
+  align-items: flex-start;
+}
+
+.dates-ids span {
+  margin-right: 1rem;
 }

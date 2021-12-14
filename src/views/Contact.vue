@@ -2,11 +2,11 @@
   <section class="contact padding flex-row center">
     <div class="content flex-row margin-top" v-if="loaded">
       <div class="text flex-column center r-padding">
-        <div class="pictures extra-margin-top">
+        <div class="pictures">
           <a 
             class="twitter-timeline"
             href="https://twitter.com/RoperLab_IUPUI?ref_src=twsrc%5Etfw"
-            data-height="700">
+            data-height="600">
             Tweets by RoperLab_IUPUI
           </a>
         </div>

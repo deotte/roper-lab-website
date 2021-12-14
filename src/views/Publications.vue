@@ -3,7 +3,7 @@
     <div class="header">
       <h1>Our Publications</h1>
     </div>
-    <div class="content flex-row">
+    <div class="content margin-top flex-row">
       <template v-if="publications">
         <Publication
           v-for="(publication, index) of publications"
@@ -11,6 +11,11 @@
           :publication="publication">
         </Publication>
       </template>
+    </div>
+    <div>
+      <span>
+        Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </span>
     </div>
   </section>
 </template>
@@ -37,6 +42,7 @@ export default {
 
       if (response !== undefined && response.length) {
         this.publications = response;
+        console.log(this.publications);
       }
     }
   }
