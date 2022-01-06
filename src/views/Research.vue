@@ -1,7 +1,7 @@
 <template>
   <section class="research padding flex-column center">
     <div class="header flex-row margin-top">
-      <h1>Current Research</h1>
+      <h2>Current Research</h2>
     </div>
     <div class="header flex-row margin-top">
       <router-link to="/research" class="tab-link r-margin">Brain</router-link>

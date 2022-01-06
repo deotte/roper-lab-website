@@ -1,7 +1,7 @@
 <template>
   <section class="publications padding flex-column center">
     <div class="header">
-      <h1>Our Publications</h1>
+      <h2>Our Publications</h2>
     </div>
     <div class="content margin-top flex-row">
       <template v-if="publications">
@@ -30,6 +30,7 @@ export default {
   data() {
     return {
       api: new ApiClient('https://www.ebi.ac.uk/europepmc/webservices/rest/search'),
+      loaded: false,
       publications: []
     }
   },
@@ -42,7 +43,6 @@ export default {
 
       if (response !== undefined && response.length) {
         this.publications = response;
-        console.log(this.publications);
       }
     }
   }

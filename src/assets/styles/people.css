@@ -11,7 +11,7 @@
   margin: 1rem;
 }
 
-.profile span, .profile h3, .profile p {
+.profile span, .profile h4, .profile p {
   align-self: flex-start;
 }
 

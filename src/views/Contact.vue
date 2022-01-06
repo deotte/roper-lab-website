@@ -12,9 +12,9 @@
         </div>
       </div>
       <div class="find-us flex-column center l-padding" v-if="locations.length > 0">
-        <h1>Find Us</h1>
+        <h2>Find Us</h2>
         <template v-for="(location, index) of locations" :key="index">
-          <h3 class="extra-margin-top">{{ location.title }}</h3>
+          <h4 class="extra-margin-top">{{ location.title }}</h4>
           <template v-for="(field, index) of location.fields" :key="index">
             <a class="margin-top" :href="field"
                v-if="field.includes('https:')">

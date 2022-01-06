@@ -1,7 +1,7 @@
 <template>
   <div class="publication padding flex-row center">
     <div class="text lr-padding flex-column">
-      <h3>{{ publication.title }}</h3>
+      <h4>{{ publication.title }}</h4>
       <p class="margin-top">{{ publication.authors }}</p>
       <div class="dates-ids flex-row margin-top">
         <span v-if="publication.pmId">

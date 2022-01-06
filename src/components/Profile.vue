@@ -2,7 +2,7 @@
   <div class="profile flex-row center">
     <div class="picture flex-column center"><div class="placeholder"></div></div>
     <div class="text flex-column center lr-padding">
-      <h3>{{ name }}</h3>
+      <h4>{{ name }}</h4>
       <template v-if="Array.isArray(title)">
         <span v-for="(title, index) of title"
               :key="index"

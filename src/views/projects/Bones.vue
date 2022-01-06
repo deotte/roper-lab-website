@@ -1,5 +1,5 @@
 <template>
-  <h1>Bones</h1>
+  <h3>Bones</h3>
 </template>
 
 <script>

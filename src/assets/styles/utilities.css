@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.header h1 {
+.header h2 {
   justify-self: flex-start;
   border-bottom: 1px solid var(--black);
   padding-bottom: 1rem;

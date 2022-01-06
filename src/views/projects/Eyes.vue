@@ -1,5 +1,5 @@
 <template>
-  <h1>Eyes</h1>
+  <h3>Eyes</h3>
 </template>
 
 <script>

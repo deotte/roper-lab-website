@@ -11,12 +11,12 @@
   align-self: flex-start;
 }
 
-.find-us h1 {
+.find-us h2 {
   padding-bottom: .5rem;
   border-bottom: 1px solid var(--black);
 }
 
-.find-us span, .find-us h3, .find-us a, .find-us h1 {
+.find-us span, .find-us h4, .find-us a, .find-us h2 {
   align-self: flex-start;
 }
 

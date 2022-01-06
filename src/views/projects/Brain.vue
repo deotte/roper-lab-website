@@ -1,5 +1,5 @@
 <template>
-  <h1>Brain</h1>
+  <h3>Brain</h3>
   <p>
     Sed et urna at est blandit laoreet id at felis. 
     Fusce rutrum gravida nunc vel elementum. Quisque dapibus ipsum molestie, ullamcorper urna at, tempor neque. 
