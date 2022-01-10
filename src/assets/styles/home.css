@@ -1,23 +1,12 @@
-.home .landing-image {
-  width: 400px;
-  height: 300px;
-}
+/* Original: 640x426 */
 
-.home .landing-image img {
-  width: 100%;
-  height: 100%;
-}
+/* .home .col-xs-12 img {
+  width: 320px;
+  height: 213px;
+} */
 
-.content .text, .content .picture {
-  height: inherit;
-  min-height: inherit;
-}
-
-.text .action-button, .text h1 {
-  align-self: flex-start;
-}
-
-.text h1 {
+.home h1 {
+  display: inline-block;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--black);
 }
