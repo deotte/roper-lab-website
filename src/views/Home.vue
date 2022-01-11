@@ -11,7 +11,7 @@
           <h1>Our Research</h1>
         </div>
       </div>
-      <div class="row mt-2 mt-md-4">
+      <div class="row mt-2 mt-md-4 mt-lg-0">
         <div class="col-xs-12 col-lg-7 v-center">
           <p>
             Our research seeks to understand the genetic and developmental bases of phenotypes related to Trisomy 21 or Down syndrome (DS).  
@@ -37,7 +37,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col mt-2 mt-md-4">
+        <div class="col mt-2 mt-md-4 mt-lg-0">
           <router-link to="/research" class="action-button">
             View our research ->
           </router-link>

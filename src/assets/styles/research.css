@@ -1,9 +1,12 @@
-.research .content {
-  background-color: var(--cream);
+.research h2 {
+  display: inline-block;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--black);
 }
 
-.research .header {
-  height: 60px;
+.research .content {
+  background-color: var(--cream);
+  min-height: 500px;
 }
 
 .research .content {
