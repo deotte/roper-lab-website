@@ -1,19 +1,21 @@
 <template>
-  <div class="profile flex-row center">
-    <div class="picture flex-column center"><div class="placeholder"></div></div>
-    <div class="text flex-column center lr-padding">
-      <h4>{{ name }}</h4>
-      <template v-if="Array.isArray(title)">
-        <span v-for="(title, index) of title"
-              :key="index"
-              class="margin-top">
+  <div class="col-xs-12 col-md-12 col-lg-6 col-xl-4 mt-4">
+    <div class="card">
+      <img class="card-img-top" src="../assets/stock_photo.jpeg">
+      <div class="card-body">
+        <h4 class="card-title mt-2">{{ name }}</h4>
+        <template v-if="Array.isArray(title)">
+          <span v-for="(title, index) of title"
+                :key="index"
+                class="mt-4">
+            {{ title }}
+          </span>
+        </template>
+        <span class="mt-4" v-else>
           {{ title }}
         </span>
-      </template>
-      <template v-else>
-        <span class="margin-top">{{ title }}</span>
-      </template>
-      <p class="margin-top">{{ description }}</p>
+        <p class="card-text mt-4">{{ description }}</p>
+      </div>
     </div>
   </div>
 </template>
