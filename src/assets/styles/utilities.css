@@ -97,3 +97,14 @@
 .text-center {
   text-align: center;
 }
+
+.loader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 400px;
+}
+
+.loader div {
+  margin-left: 1rem;
+}

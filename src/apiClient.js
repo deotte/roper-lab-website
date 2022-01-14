@@ -22,9 +22,16 @@ class ApiClient {
     }
   }
 
-  // Get article URL to link to Europe PMC page
+  // Get article URL
   articleUrl(article) {
-    return `https://europepmc.org/article/MED/${article.pmid}`;
+    const articleUrls = article.fullTextUrlList.fullTextUrl;
+    const doiUrlObj = articleUrls.find((urlObj) => urlObj.site === 'DOI');
+
+    if (doiUrlObj !== (undefined || null)) {
+      return doiUrlObj.url;
+    } else {
+      return `https://europepmc.org/article/MED/${article.pmid}`;
+    }
   }
 
   // Get publishing journal of article

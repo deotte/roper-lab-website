@@ -1,28 +1,26 @@
 <template>
-  <div class="publication padding flex-row center">
-    <div class="text lr-padding flex-column">
-      <h4>{{ publication.title }}</h4>
-      <p class="margin-top">{{ publication.authors }}</p>
-      <div class="dates-ids flex-row margin-top">
-        <span v-if="publication.pmId">
-          <strong>PM ID</strong>: {{ publication.pmId }}
-        </span>
-        <span v-else>
-          <strong>PM ID</strong>: N/A
-        </span>
-
-        <span v-if="publication.pmcId">
-          <strong>PMC ID</strong>: {{ publication.pmcId }}
-        </span>
-        <span v-else>
-          <strong>PMC ID</strong>: N/A
-        </span>
-
-        <span><strong>Publish Date</strong>: {{ publication.date }}</span>
+  <div class="publication col-xs-12 col-lg-6 mb-4">
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title">{{ publication.title }}</h4>
       </div>
-    </div>
-    <div class="logo flex-row center">
-      <img src="../assets/paper.png" />
+      <div class="card-body">
+        <h5 class="card-subtitle">Authors</h5>
+        <p class="card-text mt-3">{{ publication.authors }}</p>
+        <div class="dates-ids">
+          <span><strong>Publish Date</strong>: {{ publication.date }}</span>
+
+          <span v-if="publication.pmId" class="mt-2 mt-md-0">
+              <strong>PM ID</strong>: {{ publication.pmId }}
+          </span>
+          <span class="mt-2" v-else>
+            <strong>PM ID</strong>: N/A
+          </span>
+        </div>
+        <a :href="publication.url" target="_blank" class="card-link mt-3">
+          View Article ->
+        </a>
+      </div>
     </div>
   </div>
 </template>
