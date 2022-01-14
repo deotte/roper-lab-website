@@ -14,7 +14,7 @@
         <span class="mt-4" v-else>
           {{ title }}
         </span>
-        <p class="card-text mt-4">{{ description }}</p>
+        <p class="card-text mt-4 text-muted">{{ description }}</p>
       </div>
     </div>
   </div>
