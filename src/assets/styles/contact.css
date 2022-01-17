@@ -1,31 +1,17 @@
 .contact {
-  min-height: 600px;
+  padding-bottom: 2rem;
 }
 
-.content .find-us {
-  height: inherit;
-  min-height: inherit;
+.contact .container {
+  max-width: 1200px;
 }
 
-.contact .text {
-  align-self: flex-start;
-}
-
-.find-us h2 {
-  padding-bottom: .5rem;
+.contact h2 {
+  display: inline-block;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--black);
 }
 
-.find-us span, .find-us h4, .find-us a, .find-us h2 {
-  align-self: flex-start;
-}
-
-.find-us {
-  border-left: 1px solid var(--light-gray);
-}
-
-.pictures {
-  min-height: 500px;
-  width: 800px;
-  background-color: var(--cream);
+.contact .container span {
+  display: block;
 }
