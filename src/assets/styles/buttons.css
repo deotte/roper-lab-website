@@ -10,6 +10,10 @@
   border-radius: 3rem;
 }
 
+.action-button i {
+  margin-left: 1rem;
+}
+
 .action-button:hover {
   box-shadow: .25rem .25rem var(--light-gray);
 }

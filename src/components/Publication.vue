@@ -6,7 +6,7 @@
       </div>
       <div class="card-body">
         <h5 class="card-subtitle">Authors</h5>
-        <p class="card-text mt-3">{{ publication.authors }}</p>
+        <p class="card-text mt-4">{{ publication.authors }}</p>
         <div class="dates-ids">
           <span><strong>Publish Date</strong>: {{ publication.date }}</span>
 
@@ -17,8 +17,8 @@
             <strong>PM ID</strong>: N/A
           </span>
         </div>
-        <a :href="publication.url" target="_blank" class="card-link mt-3">
-          View Article ->
+        <a :href="publication.url" target="_blank" class="card-link mt-4">
+          View Article<i class="bi bi-arrow-right"></i>
         </a>
       </div>
     </div>

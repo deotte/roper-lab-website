@@ -4,6 +4,10 @@
   border-bottom: 1px solid var(--black);
 }
 
+.publication .card-header {
+  background-color: var(--light-gray);
+}
+
 .publications .card h5 {
   display: inline-block;
   padding-bottom: .5rem;
@@ -24,5 +28,8 @@
   padding-bottom: .5rem;
   display: inline-flex;
   border-bottom: 1px solid var(--blue);
-  width: 150px;
+}
+
+.card-link i {
+  margin-left: .5rem;
 }

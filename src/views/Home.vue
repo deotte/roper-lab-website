@@ -11,7 +11,7 @@
           <h1>Our Research</h1>
         </div>
       </div>
-      <div class="row mt-2 mt-md-4 mt-lg-0">
+      <div class="row mt-2 mt-md-4 mt-lg-2">
         <div class="col-xs-12 col-lg-7 v-center">
           <p>
             Our research seeks to understand the genetic and developmental bases of phenotypes related to Trisomy 21 or Down syndrome (DS).  
@@ -24,8 +24,7 @@
           </p>
           <p>
             Through our preclinical, genetic and phenotypic studies, we will better define how three copies of genes on human chromosome 21 
-            cause traits associated with DS as well as understand how genetic variability affects the severity of DS traits. 
-            Our long term goal is to apply the knowledge of how and when trisomic genes affect developmental processes to ameliorate Trisomy 21 phenotypes.
+            cause traits associated with DS as well as understand how genetic variability affects the severity of DS traits.
           </p>
         </div>
         <div class="col-lg-5 v-center d-none d-lg-flex">
@@ -37,9 +36,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col mt-2 mt-md-4 mt-lg-0">
+        <div class="col mt-2 mt-md-4 mt-lg-2">
           <router-link to="/research" class="action-button">
-            View our research ->
+            View our research<i class="bi bi-arrow-right"></i>
           </router-link>
         </div>
       </div>

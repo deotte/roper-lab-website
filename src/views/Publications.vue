@@ -1,7 +1,7 @@
 <template>
   <section class="publications padding flex-column center">
     <div class="container">
-      <div class="row">
+      <div class="row mt-2">
         <div class="col">
           <h2>Our Publications</h2>
         </div>

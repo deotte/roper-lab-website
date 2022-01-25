@@ -1,13 +1,8 @@
 <template>
   <section class="contact padding flex-row center">
-    <div class="container mt-2">
-      <div class="row mt-lg-0">
-        <div class="col">
-          <h2>Connect with Us</h2>
-        </div>
-      </div>
-      <div class="row mt-lg-4 mt-xl-2">
-        <div class="col lg-8 d-none d-lg-block me-lg-4">
+    <div class="container">
+      <div class="row">
+        <div class="col lg-8 d-none d-lg-flex me-lg-4 twitter-container">
           <a 
             class="twitter-timeline"
             href="https://twitter.com/RoperLab_IUPUI?ref_src=twsrc%5Etfw"
@@ -16,10 +11,9 @@
           </a>
         </div>
         <div class="col-lg-4 mt-2 mt-md-4 ms-lg-4">
+          <h2>Connect with Us</h2>
           <template v-for="(location, index) of locations" :key="index">
-            <h4 :class="marginClass(index)">
-              {{ location.title }}
-            </h4>
+            <h4 class="mt-4">{{ location.title }}</h4>
             <div class="fields mt-4 ms-2">
               <template v-for="(field, index) of location.fields" :key="index">
                   <a :href="field"
@@ -45,7 +39,6 @@
     name: 'Contact',
     data() {
       return {
-        loaded: false,
         locations: []
       }
     },
