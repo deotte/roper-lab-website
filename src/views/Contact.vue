@@ -13,7 +13,7 @@
         <div class="col-lg-4 mt-2 mt-md-4 ms-lg-4">
           <h2>Connect with Us</h2>
           <template v-for="(location, index) of locations" :key="index">
-            <h4 class="mt-4">{{ location.title }}</h4>
+            <h4 class="mt-5">{{ location.title }}</h4>
             <div class="fields mt-4 ms-2">
               <template v-for="(field, index) of location.fields" :key="index">
                   <a :href="field"
